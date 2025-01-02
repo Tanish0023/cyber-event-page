@@ -1,0 +1,768 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cyber Sec</title>
+  <link href="style.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Tinos:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body class="font-roboto">
+  <!-- Hero section and navbar starts here -->
+  <section class="h-screen bg-gradient-to-b from-[#081834] via-[#112244] to-[#223366] relative">
+    <!-- Background Image -->
+    <div class="absolute inset-0">
+      <img src="assets/hero3.png" alt="Background" class="w-full h-full object-cover opacity-80 mix-blend-overlay">
+    </div>
+  
+    <!-- Navbar Starts Here -->
+    <div class="relative z-10">
+      <div class="w-full sm:px-6">
+        <div class="relative pt-3 pb-2">
+          <nav class="relative flex items-center justify-between sm:h-10 md:justify-between" aria-label="Global">
+            <div class="flex items-center flex-1  md:inset-y-0 md:left-0">
+              <div class="flex items-center justify-between w-full md:w-auto">
+                <a href="./event.html">
+                  <div class="w-auto h-8 sm:h-10">
+                    <img class="w-auto h-8 sm:h-10" src="assets/logo.png" loading="lazy" width="202" height="40">
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div>
+              <img src="Images/logo.jpg" alt="logo" class="mt-2 p-3 w-24 h-24 rounded-3xl">
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+    <!-- Navbar Ends Here -->
+  
+    <!-- Centered Content Section -->
+    <div class="h-full flex items-center justify-center relative z-10">
+      <div class="text-center text-white">
+        <h2 class="text-3xl md:text-4xl xl:text-5xl font-bold leading-relaxed">
+          Advanced & Persistent Cyber Threat & its Mitigation Strategies
+        </h2>
+        <button
+          class="mt-6 px-8 py-3 text-base font-medium rounded-xl bg-orange-700 text-white hover:bg-gray-700 focus:ring-4 focus:ring-gray-800">
+          Apply Now
+        </button>
+      </div>
+    </div>
+  </section>
+  
+  <!-- hero sec and navbar ends here -->
+  
+
+  <!-- Card Section Starts here -->
+  <div>
+    <!-- CARDS SECTION -->
+
+    <div class="h-auto pb-20 bg-white">
+      <div class="py-20 lg:px-36">
+        <!-- Heading -->
+        <h1 class="text-center text-4xl font-bold text-black underline decoration-solid">
+          Cyber Attacks
+        </h1>
+      </div>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 pr-6 md:px-[5rem] md:px-30 gap-10">
+        <!-- Card 1 -->
+        <div class="min-h-[250px] w-full m-3 cursor-pointer relative group rounded-xl shadow-md overflow-hidden"
+          onclick="openModal('card-1-modal')">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/digital arrest.png" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Digital Arrest</h3>
+              <p class="text-sm text-gray-600">
+                Digital arrest is a sophisticated scam where fraudsters
+                impersonate law enforcement officials or other government
+                authorities to extort money from unsuspecting victims.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 2 -->
+        <div class="min-h-[250px] w-full m-3 cursor-pointer relative group rounded-xl shadow-md overflow-hidden "
+          onclick="openModal('card-2-modal')">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/human-trafficing.webp" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Human Trafficking</h3>
+              <p class="text-sm text-gray-600">
+                Human trafficking is the illegal trade of people for forced
+                labor, sexual exploitation, or other forms of exploitation. 
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 3 -->
+        <div class="min-h-[250px] w-full m-3 cursor-pointer relative group rounded-xl shadow-md overflow-hidden "
+        onclick="openModal('card-3-modal')">
+        <!-- Full-size Image -->
+          <div>
+            <img src="Images/phishing.png" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Phishing Attack</h3>
+              <p class="text-sm text-gray-600">
+                Phishing is a cyberattack where attackers impersonate
+                legitimate entities to trick individuals into revealing
+                sensitive information like passwords or credit card details.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 4 -->
+        <div class="min-h-[250px] w-full m-3 cursor-pointer relative group rounded-xl shadow-md overflow-hidden "
+          onclick="openModal('card-4-modal')">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/cyber bullying.jpg" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Cyber Bullying</h3>
+              <p class="text-sm text-gray-600">
+                Cyberbullying is the use of electronic communication to bully
+                a person, typically by sending messages of an intimidating or
+                threatening nature.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 5 -->
+        <div class="min-h-[250px] w-full m-3 cursor-pointer relative group rounded-xl shadow-md overflow-hidden "
+          onclick="openModal('card-5-modal')">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/sticky key attack.jpg" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Sticky Key Attack</h3>
+              <p class="text-sm text-gray-600">
+                A sticky key attack replaces the Sticky Keys executable with a
+                malicious file (like cmd.exe). This allows attackers to gain
+                administrative access by pressing Shift five times, even
+                before login.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 6 -->
+        <div class="min-h-[250px] w-full m-3 relative group rounded-xl cursor-pointer shadow-md overflow-hidden "
+          onclick="openModal('card-6-modal')">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/Deep Fake.jpg" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Deep Fake</h3>
+              <p class="text-sm text-gray-600">
+                Deepfakes are hyperrealistic AI-generated videos or images
+                that can convincingly depict real people saying or doing
+                things they never did.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 7 -->
+        <div class="min-h-[250px] w-full m-3 cursor-pointer relative group rounded-xl shadow-md overflow-hidden "
+          onclick="openModal('card-7-modal')">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/Dark Web.jpg" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Dark Web</h3>
+              <p class="text-sm text-gray-600">
+                The dark web is a hidden part of the internet accessible only
+                through specific browsers. It's known for both legitimate uses
+                and illegal activities like drug trade, hacking, and data
+                theft.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!--  -->
+
+        <!-- Card 8 -->
+        <div class="min-h-[250px] w-full m-3 cursor-pointer relative group rounded-xl shadow-md overflow-hidden "
+          onclick="openModal('card-8-modal')">
+          <!-- Full-size Image -->
+          <div>
+            <img src="Images/CSRF.webp" alt="Card Image"
+              class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+            <!-- Gradient overlay -->
+            <div
+              class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+            </div>
+          </div>
+
+          <!-- Text that jumps up on hover -->
+          <div
+            class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+            <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+              <h3 class="text-lg font-bold">Cross-Site Request Forgery (CSRF)</h3>
+              <p class="text-sm text-gray-600">
+                It is a web security vulnerability where an attacker tricks a user into
+                  performing actions they didn't intend, typically through their authenticated session, without their knowledge or
+                  consent.
+              </p>
+            </div>
+          </div>
+        </div>
+        <!--  -->
+
+        <!-- Card 9 -->
+        <div class="min-h-[250px] w-full m-3 cursor-pointer relative group rounded-xl shadow-md overflow-hidden "
+        onclick="openModal('card-9-modal')">
+        <!-- Full-size Image -->
+        <div>
+          <img src="Images/MITM.webp" alt="Card Image"
+            class="absolute inset-0 w-full h-full object-cover group-hover:opacity-70 transition-transform duration-500 group-hover:scale-110 group-hover:blur-sm" />
+          <!-- Gradient overlay -->
+          <div
+            class="absolute inset-0 bg-gradient-to-t from-white via-transparent to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500">
+          </div>
+        </div>
+
+        <!-- Text that jumps up on hover -->
+        <div
+          class="absolute inset-0 flex items-end justify-start p-6 transform translate-y-full group-hover:translate-y-0 transition-transform duration-500 ease-in-out">
+          <div class="bg-white bg-opacity-75 p-4 rounded w-full">
+            <h3 class="text-lg font-bold">Man-in-the-Middle (MitM)</h3>
+            <p class="text-sm text-gray-600">
+              A Man-in-the-Middle (MitM) attack occurs when cybercriminals intercept and potentially alter communications
+              between two parties, often without the knowledge of either party. 
+            </p>
+          </div>
+        </div>
+      </div>
+
+        <!--  -->
+      </div>
+    </div>
+
+    <!--  -->
+
+    <!-- DATE AND TIME SECTION -->
+
+    <!--  -->
+    <div class="h-auto w-full bg-center bg-cover flex items-center justify-center" style="background-image: url(./Images/Sharda\ Image.png)">
+      <!-- Info -->
+      <div class="p-10 xl:p-20 w-full bg-gray-900 bg-opacity-80">
+        <div class="bg-gray-300 w-full flex flex-col md:flex-row items-start justify-between p-5 rounded-lg shadow-gray-700 shadow-lg">
+          <div class="w-full md:w-1/2 pr-5">
+            <!-- Venue and date and time -->
+            <h1 class="text-4xl font-semibold text-black relative w-fit block after:block after:content-[''] after:absolute after:h-[3px] after:bg-blue-500 after:w-full after:scale-x-0 after:hover:scale-x-100 after:transition after:duration-300 after:origin-left">
+              Save the Date
+            </h1>
+      
+            <div class="py-6">
+              <span class="text-2xl text-black"> Venue </span>
+              <p class="pt-3 text-xl text-slate-500">
+                Plot No. 32-34, Knowledge Park III, Greater Noida, Uttar Pradesh - 201310
+              </p>
+            </div>
+            <div class="py-6">
+              <span class="text-2xl text-black"> Date & Time </span>
+              <p class="pt-3 text-xl text-slate-500">
+                13-15 December 2024, 10:00 AM - 05:00 PM
+              </p>
+            </div>
+          </div>
+          <div class="w-full md:w-1/2 rounded-3xl overflow-hidden h-[300px]">
+            <!-- Map -->
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1806.124464913367!2d77.4809071515683!3d28.473066800000005!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390cea0f7b91511b%3A0x486f13bd49e5e7ae!2sSharda%20University!5e1!3m2!1sen!2sin!4v1729950246382!5m2!1sen!2sin"
+              width="100%" height="100%" style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+    
+
+  <!-- Modal For Card 1 -->
+  <div id="card-1-modal" class="fixed inset-0 bg-gray-900 bg-opacity-50 hidden justify-center items-center z-50">
+    <div class="bg-white rounded-lg shadow-lg m-5 sm:m-10 max-w-full w-full p-6 relative max-h-screen overflow-y-auto">
+      <div class="flex justify-between items-center">
+        <h3 class="text-xl font-semibold">Digital Arrest</h3>
+        <button class="text-gray-500 hover:text-gray-800 text-2xl" onclick="closeModal('card-1-modal')">
+          &times;
+        </button>
+      </div>
+      <div class="mt-4 max-h-screen overflow-y-auto">
+        <h1>What is a Digital Arrest Scam?</h1>
+        <p>A digital arrest scam is a fraudulent scheme where scammers impersonate law enforcement officials to extort money from unsuspecting victims. These scams leverage intimidation and false accusations, such as claims of financial misconduct or tax evasion, to coerce victims into making payments under pressure.</p>
+        <br>
+        <h2><u>How Does a Digital Arrest Scam Work?</u></h2>
+        <p>Scammers operate through a series of well-orchestrated steps designed to deceive and intimidate victims:</p>
+        <ul>
+            <li><strong>Impersonation of Officials:</strong> Perpetrators pose as credible law enforcement agents, such as officers from the CBI, income tax department, or customs authorities.</li>
+            <li><strong>Initiating Contact:</strong> Victims are initially contacted via phone calls. The scammers then request a shift to video communication platforms like WhatsApp or Skype to establish a more convincing interaction.</li>
+            <li><strong>Threats and False Warrants:</strong> Scammers threaten victims with a fake digital arrest warrant, alleging crimes like tax evasion or financial fraud. To enhance their credibility, they may use props, such as a staged "police station."</li>
+            <li><strong>Coercion for Payment:</strong> Victims are pressured into making payments under the guise of clearing their names, assisting investigations, or depositing refundable security fees. Payments are requested via specified bank accounts or UPI IDs.</li>
+            <li><strong>Vanishing Act:</strong> Once the payment is made, the scammers disappear, leaving victims with financial losses and sometimes even identity theft.</li>
+        </ul>
+
+        <br>
+      <h2><u>How to Avoid Becoming a Victim of Digital Arrest Scams</u></h2>
+      <p>Awareness and vigilance are key to safeguarding yourself from these scams. Here are actionable tips:</p>
+      <ul>
+          <li><strong>Be Skeptical of Unsolicited Calls:</strong> Treat unexpected calls from individuals claiming to be law enforcement officials with caution. Remember, legitimate agencies do not request payments or sensitive information over the phone.</li>
+          <li><strong>Do Not Fall for Pressure Tactics:</strong> Scammers often create urgency to force victims into hasty decisions. Stay calm and avoid reacting impulsively to such high-pressure tactics.</li>
+          <li><strong>Verify Identities:</strong> If you suspect the legitimacy of a call, directly contact the relevant agency through official contact details to confirm the situation.</li>
+          <li><strong>Protect Your Personal Information:</strong> Never share personal or financial details, such as bank account numbers or OTPs, over calls or video chats, especially with unfamiliar individuals.</li>
+          <li><strong>Understand Communication Protocols:</strong> Government agencies will not use platforms like WhatsApp or Skype for official communication. They also do not issue arrest warrants digitally.</li>
+      </ul>
+
+      <br>
+      <h2><u>Common Tactics in Digital Arrest Scams</u></h2>
+      <ul>
+          <li><strong>Impersonation of Authorities:</strong> Scammers pose as officials from reputable law enforcement agencies like the CBI, income tax department, or customs. They use official-sounding language and fake credentials to establish credibility and intimidate victims.</li>
+          <li><strong>Fake Digital Arrest Warrants:</strong> Fraudsters issue fabricated digital arrest warrants and accuse victims of serious offenses, such as financial fraud or tax evasion. This creates a sense of fear and urgency, compelling victims to comply with their demands.</li>
+          <li><strong>Staged Environments:</strong> To enhance their credibility, scammers may set up realistic-looking backdrops, such as a mock police station or office, during video calls. This visual manipulation convinces victims that the threat is legitimate.</li>
+      </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal For Card 2 -->
+  <div id="card-2-modal" class="fixed inset-0 bg-gray-900 bg-opacity-50 hidden justify-center items-center z-50">
+    <div class="bg-white rounded-lg shadow-lg m-5 sm:m-10 max-w-full w-full p-6 relative max-h-screen overflow-y-auto">
+      <div class="flex justify-between items-center">
+        <h3 class="text-xl font-semibold">Human Trafficking</h3>
+        <button class="text-gray-500 hover:text-gray-800 text-2xl" onclick="closeModal('card-2-modal')">
+          &times;
+        </button>
+      </div>
+      <div class="mt-4 max-h-screen overflow-y-auto">
+        <p>Human trafficking refers to the illegal trade of humans for the purpose of forced labor, sexual exploitation, or involuntary servitude. It is a form of modern-day slavery, where traffickers exploit vulnerable individuals through manipulation, force, or fraud, often subjecting them to physical and emotional abuse.</p>
+        <br>
+        <h2><u>How does it work:</u></h2>
+        <ul>
+            <li><strong>Recruitment:</strong> Traffickers often use deception, coercion, or threats to recruit victims, making them believe they are offered legitimate job opportunities or a better life.</li>
+            <li><strong>Transportation and Control:</strong> Once victims are recruited, they are transported to different locations, often under threats of violence or punishment. Traffickers exert control over the victims through fear, isolation, and manipulation.</li>
+            <li><strong>Exploitation:</strong> Victims are exploited for labor, sex, or other illicit purposes. They may be forced into dangerous working conditions or subjected to sexual abuse, and they often have little to no freedom.</li>
+        </ul>
+        <br>
+        <h2><u>Common Tactics:</u></h2>
+        <ul>
+            <li><strong>Fraudulent Employment Opportunities:</strong> Traffickers may promise employment in different countries, such as domestic work, construction, or hospitality, only for victims to end up working in forced conditions.</li>
+            <li><strong>Kidnapping and Abduction:</strong> In some cases, victims are abducted or tricked into leaving their home countries or familiar environments under false pretenses.</li>
+            <li><strong>Sex Trafficking:</strong> Victims, especially women and children, may be forced into sex work, often sold to brothels, or exploited through online platforms.</li>
+        </ul>
+        <br>
+        <h2><u>How to Protect Yourself:</u></h2>
+        <ul>
+            <li><strong>Be Cautious with Job Offers:</strong> Avoid accepting unsolicited job offers, especially from unfamiliar sources, and ensure job contracts and conditions are legitimate and clear.</li>
+            <li><strong>Educate Yourself and Others:</strong> Be aware of the signs of human trafficking, including individuals who appear fearful, submissive, or controlled, and report any suspicious activities to authorities.</li>
+            <li><strong>Report Suspicious Behavior:</strong> If you suspect someone is a victim of human trafficking, report it to local law enforcement or national hotlines designed to handle such cases.</li>
+            <li><strong>Advocate for Stronger Laws:</strong> Support policies and laws that criminalize human trafficking, provide resources for victims, and hold perpetrators accountable.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal For Card 3 -->
+  <div id="card-3-modal" class="fixed inset-0 bg-gray-900 bg-opacity-50 hidden justify-center items-center z-50">
+    <div class="bg-white rounded-lg shadow-lg m-5 sm:m-10 max-w-full w-full p-6 relative max-h-screen overflow-y-auto">
+      <div class="flex justify-between items-center">
+        <h3 class="text-xl font-semibold">Phishing</h3>
+        <button class="text-gray-500 hover:text-gray-800 text-2xl" onclick="closeModal('card-3-modal')">
+          &times;
+        </button>
+      </div>
+      <div class="mt-4 max-h-screen overflow-y-auto">
+        <p>Phishing is a cyber attack that involves tricking individuals into providing sensitive information, such as usernames, passwords, or credit card details, by masquerading as a trustworthy entity.</p>
+
+        <br>
+
+        <p><u>How It Works:</u></p>
+        <ul>
+            <li><strong>Deceptive Communication:</strong> Attackers send emails, messages, or create websites that appear legitimate to deceive victims.</li>
+            <li><strong>Information Harvesting:</strong> Victims are prompted to enter personal information, which is then collected by the attackers for malicious purposes.</li>
+            <li><strong>Exploiting Trust:</strong> Phishing attacks often exploit the victim's trust in well-known brands or institutions to increase the likelihood of success.</li>
+        </ul>
+
+        <br>
+
+        <p><u>Common Tactics:</u></p>
+        <ul>
+            <li><strong>Email Spoofing:</strong> Crafting emails that appear to come from legitimate sources, such as banks or service providers.</li>
+            <li><strong>Clone Websites:</strong> Creating fake websites that closely resemble legitimate ones to capture login credentials or personal information.</li>
+            <li><strong>Urgency and Fear:</strong> Using tactics that create a sense of urgency or fear, prompting victims to act quickly without verifying the source.</li>
+        </ul>
+
+        <br>
+
+        <p><u>How to Protect Yourself:</u></p>
+        <ul>
+            <li><strong>Verify Sources:</strong> Always verify the sender's email address and be cautious of unsolicited requests for personal information.</li>
+            <li><strong>Hover Over Links:</strong> Before clicking on links, hover over them to see the actual URL and ensure it matches the expected destination.</li>
+            <li><strong>Use Multi-Factor Authentication:</strong> Enable multi-factor authentication on accounts to add an extra layer of security against unauthorized access.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal For Card 4 -->
+  <div id="card-4-modal" class="fixed inset-0 bg-gray-900 bg-opacity-50 hidden justify-center items-center z-50">
+    <div class="bg-white rounded-lg shadow-lg m-5 sm:m-10 max-w-full w-full p-6 relative max-h-screen overflow-y-auto">
+      <div class="flex justify-between items-center">
+        <h3 class="text-xl font-semibold">Cyber Bullying</h3>
+        <button class="text-gray-500 hover:text-gray-800 text-2xl" onclick="closeModal('card-4-modal')">
+          &times;
+        </button>
+      </div>
+      <div class="mt-4 max-h-screen overflow-y-auto">
+        <p>Cyberbullying involves using digital platforms to intentionally harass, intimidate, or harm individuals, causing emotional and psychological distress.</p>
+        <br>
+        <p><u>How It Works:</u></p>
+        <ul >
+            <li><strong>Targeting Victims:</strong> Perpetrators exploit platforms like social media, messaging apps, and forums to attack individuals.</li>
+            <li><strong>Varied Forms:</strong> Manifestations include spreading rumors, sharing humiliating content, or sending threatening messages.</li>
+            <li><strong>Emotional Consequences:</strong> Victims often face anxiety, depression, and social isolation due to relentless harassment.</li>
+        </ul>
+        <br>
+        <p><u>Common Tactics:</u></p>
+        <ul>
+            <li><strong>Anonymity:</strong> Cyberbullies leverage anonymity to act without fear of repercussions.</li>
+            <li><strong>Group Harassment:</strong> Coordinated attacks from multiple individuals amplify the victim's distress.</li>
+            <li><strong>Content Manipulation:</strong> Altering online content to tarnish the victim's reputation.</li>
+        </ul>
+        <br>
+        <p><u>How to Protect Yourself:</u></p>
+        <ul>
+            <li><b>Report</b> incidents to platform moderators and involve trusted individuals for support.</li>
+            <li><b>Document evidence</b> of harassment for potential legal or administrative action.</li>
+            <li><b>Educate others</b> about cyberbullying and advocate for respectful online conduct.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+  
+
+  <!-- Modal For Card 5 -->
+  <div id="card-5-modal" class="fixed inset-0 bg-gray-900 bg-opacity-50 hidden justify-center items-center z-50">
+    <div class="bg-white rounded-lg shadow-lg m-5 sm:m-10 max-w-full w-full p-6 relative max-h-screen overflow-y-auto">
+      <div class="flex justify-between items-center">
+        <h3 class="text-xl font-semibold">Sticky key attack</h3>
+        <button class="text-gray-500 hover:text-gray-800 text-2xl" onclick="closeModal('card-5-modal')">
+          &times;
+        </button>
+      </div>
+      <div class="mt-4 max-h-screen overflow-y-auto">
+        <section>
+          <p>A Sticky Key attack is a type of cyber attack where an attacker exploits a vulnerability in the "Sticky Keys" accessibility feature in Windows operating systems. Sticky Keys is designed to help users with disabilities by allowing them to press one key at a time for keyboard shortcuts, but attackers can use it to gain unauthorized access to a system or bypass security controls.</p>
+        </section>
+        <br>
+        <section>
+            <h2><u>How Does It Work?</u></h2>
+            <ul>
+                <li><strong>Enabling Sticky Keys:</strong> The attacker needs physical access to the target machine to enable the Sticky Keys feature. This is typically done by replacing the Ease of Access application with a malicious program, allowing the attacker to trigger Sticky Keys on the login screen.</li>
+                <li><strong>Bypassing Passwords:</strong> Once Sticky Keys are activated, the attacker can press Shift five times to bring up the Sticky Keys dialog box, which can be exploited to run commands that may allow them to reset passwords, open command prompts, or gain system privileges.</li>
+                <li><strong>Privilege Escalation:</strong> In some cases, Sticky Key attacks can be used for privilege escalation, where a standard user account is elevated to administrative privileges, allowing the attacker full control over the system.</li>
+            </ul>
+        </section>
+        <br>
+        <section>
+            <h2><u>Common Tactics</u></h2>
+            <ul>
+                <li><strong>Physical Access Required:</strong> The attacker must have direct access to the target machine in order to exploit Sticky Keys, making it necessary for an attacker to be present or to gain unauthorized access to the victim's system.</li>
+                <li><strong>Malicious Replacement of System Files:</strong> Attackers often replace critical system files, such as the Sethc.exe (Sticky Keys) file, with malicious code. This allows them to execute arbitrary commands when Sticky Keys is triggered.</li>
+                <li><strong>Exploiting Login Screen:</strong> Since Sticky Keys can be triggered from the login screen, attackers often use this feature to circumvent password authentication and gain access to user accounts or escalate privileges.</li>
+            </ul>
+        </section>
+        <br>
+        <section>
+            <h2><u>How to Protect Yourself</u></h2>
+            <ul>
+                <li><strong>Disable Sticky Keys:</strong> If the Sticky Keys feature is not required for accessibility purposes, it should be disabled in the system settings to prevent exploitation.</li>
+                <li><strong>Physical Security:</strong> Ensure that physical access to machines is restricted to authorized personnel only. Physical security controls such as locked doors, encryption, and access logs can help prevent unauthorized access.</li>
+                <li><strong>Use Full Disk Encryption:</strong> Encrypt the hard drive to prevent unauthorized users from accessing system files or bypassing the login screen even if they gain physical access.</li>
+                <li><strong>Regular Software Updates:</strong> Keep your operating system and security software up-to-date to patch vulnerabilities that could be exploited by attackers attempting to trigger Sticky Key attacks.</li>
+            </ul>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal For Card 6 -->
+  <div id="card-6-modal" class="fixed inset-0 bg-gray-900 bg-opacity-50 hidden justify-center items-center z-50">
+    <div class="bg-white rounded-lg shadow-lg m-5 sm:m-10 max-w-full w-full p-6 relative max-h-screen overflow-y-auto">
+      <div class="flex justify-between items-center">
+        <h3 class="text-xl font-semibold">Deep Fake</h3>
+        <button class="text-gray-500 hover:text-gray-800 text-2xl" onclick="closeModal('card-6-modal')">
+          &times;
+        </button>
+      </div>
+      <div class="mt-4 max-h-screen overflow-y-auto">
+        <p>Deepfake refers to the use of artificial intelligence (AI) and machine learning to create hyper-realistic images, videos, and audio that are manipulated or entirely fabricated. These fakes can depict people or events that do not exist or did not actually happen, often used to mislead or deceive the public.</p>
+        <br>
+        <h2><u>How Does It Work:</u></h2>
+        <ul>
+            <li><strong>Generative Adversarial Networks (GANs):</strong> GANs are used to train AI models to recognize patterns in large datasets, enabling the creation of fake but convincing images, videos, and audio.</li>
+            <li><strong>Autoencoders:</strong> These are algorithms used in face-swapping, encoding and decoding facial features to replace or merge faces between individuals in videos or photos.</li>
+            <li><strong>Face and Voice Synthesis:</strong> AI algorithms manipulate and generate realistic faces and voices, enabling impersonation or swapping identities seamlessly in media.</li>
+        </ul>
+        <br>
+        <h2><u>Common Tactics:</u></h2>
+        <ul>
+            <li><strong>Scams and Hoaxes:</strong> Cybercriminals create fake videos of executives or celebrities to spread false claims or disinformation, which can harm a company’s reputation or mislead the public.</li>
+            <li><strong>Election Manipulation:</strong> Deepfakes are used to create fake videos of political leaders, often to influence elections or public opinion by spreading disinformation.</li>
+            <li><strong>Nonconsensual Pornography:</strong> A significant percentage of deepfakes are used to create explicit content without consent, typically targeting celebrities, causing harm to personal and professional reputations.</li>
+        </ul>
+        <br>
+        <h2><u>How to Protect Yourself:</u></h2>
+        <ul>
+            <li><strong>Educate and Stay Informed:</strong> Be aware of the signs of deepfakes, including unnatural facial expressions, odd body movements, and mismatched audio.</li>
+            <li><strong>Use Deepfake Detection Tools:</strong> Utilize AI-based tools or apps designed to spot deepfake videos, such as those being developed by social media platforms and cybersecurity firms.</li>
+            <li><strong>Verify Content Sources:</strong> Cross-check suspicious videos or images by consulting reputable news sources or experts.</li>
+            <li><strong>Advocate for Legislation:</strong> Support laws and regulations aimed at criminalizing malicious deepfake use and holding perpetrators accountable, ensuring they cannot be used to harm others or spread falsehoods.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal For Card 7 -->
+  <div id="card-7-modal" class="fixed inset-0 bg-gray-900 bg-opacity-50 hidden justify-center items-center z-50">
+    <div class="bg-white rounded-lg shadow-lg m-5 sm:m-10 max-w-full w-full p-6 relative max-h-screen overflow-y-auto">
+      <div class="flex justify-between items-center">
+        <h3 class="text-xl font-semibold">Dark Web</h3>
+        <button class="text-gray-500 hover:text-gray-800 text-2xl" onclick="closeModal('card-7-modal')">
+          &times;
+        </button>
+      </div>
+      <div class="mt-4 max-h-screen overflow-y-auto">
+        <p>The Dark Web is a part of the internet that is intentionally hidden from search engines and accessible only via specialized software, like Tor. It exists beneath the surface web and deep web, and is a smaller, more concealed portion of the Deep Web. The Dark Web is often associated with anonymity and is used by individuals and organizations that require privacy, although it is also a hotspot for illegal activity.</p>
+        <br>
+        <h2><u>How does it work:</u></h2>
+        <ul>
+            <li><strong>Anonymity through Tor:</strong> The Dark Web relies heavily on Tor (The Onion Routing) or similar anonymizing technologies that route traffic through a series of encrypted nodes to obscure the user's identity.</li>
+            <li><strong>Hidden from search engines:</strong> Websites on the Dark Web are not indexed by traditional search engines like Google and are typically identified by the ".onion" domain.</li>
+            <li><strong>Specialized access required:</strong> To access the Dark Web, users need special software like Tor, which anonymizes traffic and helps users avoid surveillance or tracking.</li>
+        </ul>
+        <br>
+        <h2><u>Common Tactics:</u></h2>
+        <ul>
+            <li><strong>Cybercrime:</strong> The Dark Web is often used for illegal activities such as buying and selling drugs, weapons, or stolen data.</li>
+            <li><strong>Whistleblowing:</strong> It also serves as a refuge for political dissidents, whistleblowers, and individuals seeking to communicate without the risk of surveillance or retaliation.</li>
+            <li><strong>Anonymity for legitimate use:</strong> Some individuals use the Dark Web for legal reasons, such as avoiding government censorship, especially in restrictive regimes.</li>
+        </ul>
+        <br>
+        <h2><u>How to Protect Yourself:</u></h2>
+        <ul>
+            <li><strong>Use a VPN with Tor:</strong> When accessing the Dark Web, ensure you use a Virtual Private Network (VPN) in conjunction with Tor to further mask your identity and encrypt your traffic.</li>
+            <li><strong>Avoid downloading files:</strong> Malicious software like keyloggers, ransomware, and other forms of malware are common on the Dark Web. Be cautious about downloading any files.</li>
+            <li><strong>Create disposable identities:</strong> When engaging in any activity on the Dark Web, use pseudonyms, temporary email addresses, and anonymous payment methods (e.g., prepaid debit cards).</li>
+            <li><strong>Enable security features:</strong> Disable Java and ActiveX, and use endpoint security tools such as antivirus software to help detect and prevent malware infections.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal For Card 8 -->
+  <div id="card-8-modal" class="fixed inset-0 bg-gray-900 bg-opacity-50 hidden justify-center items-center z-50">
+    <div class="bg-white rounded-lg shadow-lg m-5 sm:m-10 max-w-full w-full p-6 relative max-h-screen overflow-y-auto">
+      <div class="flex justify-between items-center">
+        <h3 class="text-xl font-semibold">Cross-Site Request Forgery (CSRF)</h3>
+        <button class="text-gray-500 hover:text-gray-800 text-2xl" onclick="closeModal('card-8-modal')">
+          &times;
+        </button>
+      </div>
+      <div class="mt-4 max-h-screen overflow-y-auto">
+        <p>Cross-Site Request Forgery (CSRF) is a web security vulnerability where an attacker tricks a user into performing actions they didn't intend, typically through their authenticated session, without their knowledge or consent.</p>
+        <br>
+        <h2><u>How does it work:</u></h2>
+        <ul>
+            <li><strong>The attacker creates a malicious request:</strong> The attacker creates a malicious request (e.g., a form submission or link) designed to exploit a vulnerable action within a web application.</li>
+            <li><strong>Malicious website triggers the request:</strong> When the victim visits a malicious website while logged into the targeted site, their browser sends the request along with the victim’s session cookie, making the request appear legitimate.</li>
+            <li><strong>Unintended action processed:</strong> If the application doesn’t have adequate defenses, it processes the request as if the victim made it themselves, causing unintended actions (e.g., changing account details or making unauthorized transactions).</li>
+        </ul>
+        <br>
+        <h2><u>Common Tactics:</u></h2>
+        <ul>
+            <li><strong>Malicious Links or Images:</strong> The attacker might send a malicious link or embed an image in a webpage that triggers the unwanted action, often via social engineering methods like phishing.</li>
+            <li><strong>Embedded Forms:</strong> The attacker creates a hidden form on their page that automatically submits when the victim visits the page, triggering an unwanted action like changing user settings or sending funds.</li>
+        </ul>
+        <br>
+        <h2><u>How to Protect Yourself:</u></h2>
+        <ul>
+            <li><strong>CSRF Tokens:</strong> Use unique, unpredictable tokens for each form or action to ensure requests are legitimate and from the actual user.</li>
+            <li><strong>SameSite Cookies:</strong> Configure session cookies with the SameSite attribute (Lax or Strict) to restrict their use in cross-origin requests.</li>
+            <li><strong>Referer Header Validation:</strong> Check the Referer header to ensure requests originate from the same domain as the application.</li>
+            <li><strong>User Action Confirmation:</strong> Require confirmation (e.g., re-entering a password) for sensitive actions, ensuring that the user explicitly approves the request.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal For Card 9 -->
+  <div id="card-9-modal" class="fixed inset-0 bg-gray-900 bg-opacity-50 hidden justify-center items-center z-50">
+    <div class="bg-white rounded-lg shadow-lg m-5 sm:m-10 max-w-full w-full p-6 relative max-h-screen overflow-y-auto">
+      <div class="flex justify-between items-center">
+        <h3 class="text-xl font-semibold">Man-in-the-Middle (MitM)</h3>
+        <button class="text-gray-500 hover:text-gray-800 text-2xl" onclick="closeModal('card-9-modal')">
+          &times;
+        </button>
+      </div>
+      <div class="mt-4 max-h-screen overflow-y-auto">
+        <p>A Man-in-the-Middle (MitM) attack occurs when cybercriminals intercept and potentially alter communications between two parties, often without the knowledge of either party. This attack can lead to stolen data, credentials, or financial information.</p>
+        <br>
+        <h2><u>How Does It Work?</u></h2>
+        <ul>
+            <li><strong>Message Interception:</strong> The attacker intercepts communication between two entities (e.g., a bank and a customer) without either party knowing.</li>
+            <li><strong>Data Manipulation:</strong> Once intercepted, the attacker may alter the message or remove it entirely before passing it on to the recipient.</li>
+            <li><strong>Data Theft:</strong> The attacker may collect sensitive information like login credentials, financial data, or other personal information as the communication continues.</li>
+        </ul>
+        <br>
+        <h2><u>Common Tactics</u></h2>
+        <ul>
+            <li><strong>Email Hijacking:</strong> Cybercriminals gain access to an organization's email system and manipulate communications to steal sensitive data or money.</li>
+            <li><strong>Wi-Fi Eavesdropping:</strong> Attackers create fake Wi-Fi networks to intercept users’ online activities and capture sensitive information.</li>
+            <li><strong>DNS Spoofing:</strong> The attacker redirects a victim’s internet traffic to a fraudulent website designed to steal their credentials or sensitive data.</li>
+        </ul>
+        <br>
+        <h2><u>How to Protect Yourself</u></h2>
+        <ul>
+            <li><strong>Use a VPN:</strong> A Virtual Private Network (VPN) encrypts your data, making it harder for attackers to intercept or modify communications.</li>
+            <li><strong>Enable End-to-End Encryption:</strong> Make sure communication tools (e.g., email, messaging apps) offer end-to-end encryption to secure data.</li>
+            <li><strong>Be Wary of Public Wi-Fi:</strong> Avoid connecting to unsecured Wi-Fi networks, especially when handling sensitive tasks like banking.</li>
+            <li><strong>Regularly Update and Patch Systems:</strong> Ensure your devices and software are up to date to protect against known vulnerabilities that attackers may exploit.</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+
+  <!-- Card Section ends here -->
+
+  <!-- Footer starts here -->
+  <div class="bg-gray-800 pt-5">
+    <div class="max-w-screen-lg px-4 sm:px-6 text-white  sm:grid md:grid-cols-4 sm:grid-cols-2 mx-auto">
+      <div class="p-5">
+        <h3 class="font-bold text-xl text-white">Centre of Excellence</h3>
+        <img src="Images/logo.jpg" alt="logo" class="w-32 h-32 rounded-md">
+      </div>
+      <div>
+
+      </div>
+      <div></div>
+      <div class="p-5">
+        <div class="text-sm uppercase text-white font-bold">Contact us</div>
+        <a class="my-3 block" href="/#">Plot No. 32-34, Knowledge Park III, Greater Noida, Uttar Pradesh 201310
+          <span class="text-white text-xs p-1"></span></a><a class="my-3 block" href="/#">contact@company.com
+          <span class="text-white text-xs p-1"></span></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="bg-gray-800 pt-2">
+    <div class="flex pb-5 px-3 m-auto pt-5 border-t text-white text-sm flex-col
+      max-w-screen-lg items-center">
+      
+      <div class="my-5 text-white">© Copyright 2025. All Rights Reserved.</div>
+    </div>
+  </div>
+
+  <!-- Footer ends here -->
+  <script src="event.js"></script>
+
+</body>
+
+</html>
